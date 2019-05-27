@@ -15,7 +15,7 @@ public class Servlet1 extends HttpServlet {
 		long time = System.currentTimeMillis();
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
-		out.println("<h3>Servlet1:"+time+"</h3>");
+		out.println("<h1>Servlet1:"+time+"</h1>");
 		out.close();
 	}
 
