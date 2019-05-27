@@ -12,7 +12,8 @@ public class Servlet1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
-		long time = System.currentTimeMillis();
+//		long time = System.currentTimeMillis();
+		long time = (long)(Math.random()*10000);
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.println("<h1>Servlet1:"+time+"</h1>");
