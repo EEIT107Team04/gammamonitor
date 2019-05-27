@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+/.classpath
+/.project
+/build/
+/.settings/
+=======
 /build/
 /.settings/
 /.classpath
 /.project
+>>>>>>> refs/remotes/origin/master
