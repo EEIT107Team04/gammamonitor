@@ -16,7 +16,15 @@ public class Servlet1 extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.println("<h3>Servlet1:"+time+"</h3>");
-		out.close();
+//		long time = System.currentTimeMillis();
+		long time1 = (long)(Math.random()*10000);
+		response.setContentType("text/html; charset=UTF-8");
+		PrintWriter out1 = response.getWriter();
+		out1.println("<h1>Servlet1:"+time1+"</h1>");
+		long time2 = System.currentTimeMillis();
+		response.setContentType("text/html; charset=UTF-8");
+		out1.println("<h3>Servlet1:"+time2+"</h3>");
+		out1.close();
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
