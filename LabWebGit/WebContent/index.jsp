@@ -11,6 +11,8 @@
 
 <h3>Home</h3>
 
+<h1>holleword</h1>
+
 <h3><a href="<c:url value="/servlet1.view" />">Servlet1</a></h3>
 
 
