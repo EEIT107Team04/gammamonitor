@@ -21,6 +21,9 @@ public class Servlet1 extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		out.println("<h3>Servlet1:"+time2+"</h3>");
 		out.close();
+		
+	  測試 測試 這次測試 May 27 2019 16:36 
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
