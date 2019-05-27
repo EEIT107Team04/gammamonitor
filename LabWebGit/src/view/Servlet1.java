@@ -13,10 +13,13 @@ public class Servlet1 extends HttpServlet {
 			throws ServletException, IOException {
 		
 //		long time = System.currentTimeMillis();
-		long time = (long)(Math.random()*10000);
+		long time1 = (long)(Math.random()*10000);
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
-		out.println("<h1>Servlet1:"+time+"</h1>");
+		out.println("<h1>Servlet1:"+time1+"</h1>");
+		long time2 = System.currentTimeMillis();
+		response.setContentType("text/html; charset=UTF-8");
+		out.println("<h3>Servlet1:"+time2+"</h3>");
 		out.close();
 	}
 
