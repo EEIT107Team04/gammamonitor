@@ -3,7 +3,6 @@
 
 
 public class MemberBean {
-	
 	private String place;   			
 	private String station;   			
 	private String measurements;
